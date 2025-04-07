@@ -9,4 +9,4 @@ jobs:
       - name: Say Hello
         run: echo "Hello from BCIT second change"
       - name: Output Date
-      run: echo date
+        run: echo $(date)
